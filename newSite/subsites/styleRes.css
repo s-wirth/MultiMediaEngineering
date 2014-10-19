@@ -1,0 +1,42 @@
+.tableImg {
+	height: 100px;
+	width: auto;
+
+}
+
+.arrows {
+	height: 20px;
+	width: auto;
+	float: right;
+}
+
+.arrows img {
+	padding-left: 15px;
+	padding-right: 3px;
+}
+
+.result-content th {
+	height: 20px;
+	line-height: 20px;
+	background:  linear-gradient(#c61350, #99163e);
+}
+
+.result-content td{	
+	color: white;
+	font-family: 'Lato', arial, sans-serif;
+	letter-spacing: 3px;
+	text-align: left;
+	padding-left: 5px;
+}
+
+.ub.result-content   table {
+	border-collapse: collapse;
+    margin: 0 auto;
+  }
+
+
+.ub.result-content {
+	text-align: center;
+	width: 80%;
+
+}

@@ -1,0 +1,240 @@
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+.logo {
+	position: absolute;
+	z-index: 3;
+	top: 10px;
+	left: 18%;
+}
+.logo img {
+	height: 100px;
+	width: auto;
+}
+#container {
+	background: #232222 url("/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/Acc/texture.png") repeat;
+	min-height:100%;
+	position:relative;
+	
+}
+.header {
+	background: linear-gradient(#c61350, #99163e);
+	border-bottom: 2px solid #cd365b;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	padding:10px;
+}
+
+.header h1 {
+	color: white;
+	font-size: 30px;
+	font-family: 'Lato',arial,sans-serif;
+	letter-spacing: 25px;
+	padding-left: 50px;
+	line-height: 100px;
+	margin: auto;
+}
+
+
+.footer {
+	width:100%;
+	height:80px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:linear-gradient(#1c1b1b, #131212);
+}
+
+#credit {
+	color: #8c8686;
+	font-family: 'Lato',arial,sans-serif;
+	font-size: 12px;
+	text-align: left;
+	height: 80px;
+	width: auto;
+	line-height: 80px;
+	float: left;
+	padding-left: 19%;
+}
+
+#impressum {
+	color: #8c8686;
+	font-family: 'Lato',arial,sans-serif;
+	font-size: 12px;
+	text-align: left;
+	height: 80px;
+	width: auto;
+	line-height: 80px;
+	float: right;
+	padding-right: 20%;
+}
+
+#impressum ul, li {
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding: 0 6px;
+}
+
+#impressum a {
+	color: #8c8686;
+	font-family: 'Lato',arial,sans-serif;
+	font-size: 12px;
+}
+
+#content {
+	background: none;
+	width: 55%;
+	overflow: auto;
+	margin: auto;
+	margin-top: 50px;
+	padding:10px;
+	padding-bottom:80px;   /* Height of the footer element */
+}
+
+#content {
+	color: 661128;
+	font-family: 'Lato', arial, sans-serif;
+	text-align: center;
+}
+.seperate {
+	background: url("/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/Acc/zigzag.png") no-repeat;
+	background-position: 100px 50%; 
+	margin-top: 50px;
+	height: 100px;
+	width: 800px;
+}
+
+#welcome {
+	background: rgba(168, 163, 164, 0.3);
+	border: 1px solid #a8a3a4;
+	border-radius: 3px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	width: 80%;
+	height: auto;
+	text-align: left;
+	padding: 20px;
+}
+
+#welcome {
+	color: white;
+	font-family: 'Lato', arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+#welcome h1{
+	margin-top: -19px;
+	text-align: center;
+	font-family: 'Arizonia', Verdana, sans-serif;
+	font-size: 30px;
+}
+
+#info {
+	background: rgba(168, 163, 164, 0.2);
+	border-radius: 3px;
+	position: relative;
+	margin: auto;
+	margin-top: 30px;
+	width: 500px;
+	height: auto;
+	text-align: left;
+	padding: 20px;
+}
+
+#info table, th, td {
+	color: white;
+	background: #a8a3a4;
+	padding: 12 19px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border: 1px solid #fff;
+}
+
+#info h1{
+	margin-top: -15px;
+	color: white;
+	border-bottom: 1px dotted white;
+	text-align: left;
+	font-family: 'Arizonia', arial, sans-serif;
+	font-size: 27px;
+}
+
+#nav {
+	background: #1c1b1b;
+	border-bottom: 2px solid black;	
+	height: 60px;
+	width: 100%;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+
+
+}
+
+#nav a {
+	transition: background 0.5s, color 0.5s;
+	border-radius: 17px;
+	color: #a29d9e;
+	font-size: 15px;
+	font-family: 'Lato',arial,sans-serif;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 11px 24px;
+		
+}
+a#active {
+	color: #d9d2d4;
+	background: #121111;
+	border-radius: 17px;
+	border-bottom: 1px solid #6a2737;
+}
+
+#nav a:hover {
+	transition: background 2s, color 2s;
+	background: #a8a3a4;
+	border-bottom: 1px solid #cd365b;
+	border-top: 1px solid #cd365b;
+	color: white;
+	
+}	
+
+#active a:hover {
+	transition: background 2s, color 2s;
+	background: #a8a3a4;
+	border-radius: 17px;
+	border-bottom: 1px solid #cd365b;
+	border-top: 1px solid #cd365b;
+	color: white;
+	
+}	
+
+#nav ul {
+	display: inline;
+	padding: 0;
+
+}
+
+#nav #menu {
+	line-height: 60px;
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 16%;
+}
+
+#nav #register {
+	line-height: 60px;
+	float: right;
+	padding-left: 30%;
+	display: inline-block;
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 20%;
+
+}

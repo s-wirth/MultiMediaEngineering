@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>ArtArchive</title>
+	<link rel="shortcut icon" href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/favicon.ico" >
+	<link href="main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div class="logo"><img src="http://i61.tinypic.com/2hx8umx.png" alt="ArtArchive" /></div>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Stuff</a></li>
+		</ul>
+	</nav>
+
+
+	<div class="status">
+		<h2>Your general Info:</h2>
+		<table border="1" id="info">
+			<tr>
+				<th>Uploads total</th>
+				<th>Free Space</th>
+				<th>Last Upload</th>
+			</tr>
+			<tr>
+				<td>23</td>
+				<td>2.3GB</td>
+				<td>2/3/14</td>
+			</tr>
+		</table>
+	</div>
+
+	<div id="containerMain">
+		
+		<div class="col">
+			<h1>Add</h1>
+			<br>
+			Add folder: <button type="button" onclick="alert('Hello world!')">choose...</button> <small>(no folder chosen)</small>
+			<br>
+			or
+			<br>
+			Add file: <button type="button" onclick="alert('Hello world!')">choose...</button> <small>(no file chosen)</small>
+			<br>			<br>
+			<form action="input_text.htm">
+				<table id="tb">
+					<tr>
+						<td>Add Location:</td>
+						<td><input name="location" type="text" size="31" maxlength="60"></td>
+					</tr>
+					<tr>
+						<td>Add Date: </td>
+						<td><input name="date" type="datetime-local"> </td>
+					</tr>
+					<tr>
+						<td>Add Tags:</td>
+						<td><input name="tags" type="text" size="31" maxlength="40"><small> (seperate tags with commas)</small></td>
+					</tr>
+				</table>
+			</form>
+			<br>
+			<p><button type="button" onclick="alert('Hello world!')">Add</button></p>
+		</div>
+		
+
+
+		<div class="col">
+			<h1>Browse</h1>
+			<h2>Look for</h2>
+			<form action="input_text.htm">
+				<table id="tb">
+					<tr>
+						<td>Location:</td>
+						<td><input name="location" type="text" size="31" maxlength="60"></td>
+					</tr>
+					<tr>
+						<td>From Date: </td>
+						<td><input name="date" type="datetime-local"> </td>
+						<td>To Date: </td>
+						<td><input name="date" type="datetime-local"> </td>
+					</tr>
+					<tr>
+						<td>Tags:</td>
+						<td><input name="tags" type="text" size="31" maxlength="40"><small> (seperate tags with commas)</small></td>
+					</tr>
+				</table>
+			</form>
+			<br>
+			Sort By : 
+			<select>
+				<option value="asc">Date</option>
+				<option value="desc">Location</option>
+			</select>
+<select >
+				<form action="input_checkbox.htm">
+					<p>Looking in your folder(s) :</p>
+					<p>
+						<input type="checkbox" name="folder" value="folder">Vacation<br>
+						<input type="checkbox" name="folder" value="folder">Baby<br>
+						<input type="checkbox" name="folder" value="folder">Pets<br>
+						<input type="checkbox" name="folder" value="folder">Wedding<br>
+						<input type="checkbox" name="folder" value="folder">Family<br>
+
+					</p>
+				</form>
+</select>
+
+			<br>
+			Order : 
+			<select>
+				<option value="asc">Ascending</option>
+				<option value="desc">Descending</option>
+			</select>
+			<br><br>
+			<p><a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/page1.html"><button type="button">Browse</button></a></p>
+		</div>
+		
+
+	</div>
+
+
+
+	
+</body>
+</html>

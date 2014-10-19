@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Browse - ArtArchive</title>
+	<link href='http://fonts.googleapis.com/css?family=Arizonia|Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/favicon.ico" >
+
+	<link href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/style.css" rel="stylesheet" type="text/css" />
+
+	<link href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/subsites/styleSub.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+	<div id="container">
+		<div class="logo"><a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/index.html"><img src="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/Acc/ArtArchiveLogo500.png" alt="ArtArchive" /></a></div>
+		<div class="header"><h1>Art Archive</h1></div>
+
+
+
+
+
+		<div id="nav">
+			<li id="menu">
+				<ul>
+					<a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/subsites/upload.html">Upload</a>
+				</ul>
+				<ul>
+					<a id="active" href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/subsites/browse.html">Browse</a>
+				</ul>
+				<ul>
+					<a href="#">Account</a>
+				</ul>
+			</li>
+
+
+		</li></div>
+
+		<div id="content">
+
+
+			<div class="ub">
+			<h1>Browse</h1>
+			<h2>Look for</h2>
+			<form action="input_text.htm">
+				<table id="tb">
+					<tr>
+						<td>Location:</td>
+						<td><input name="location" type="text" size="31" maxlength="60"></td>
+					</tr>
+					<tr>
+						<td>From Date: </td>
+						<td><input name="date" type="datetime-local"> </td>
+						<td>To Date: </td>
+						<td><input name="date" type="datetime-local"> </td>
+					</tr>
+					<tr>
+						<td>Tags:</td>
+						<td><input name="tags" type="text" size="31" maxlength="40"><small> (seperate tags with commas)</small></td>
+					</tr>
+				</table>
+			</form>
+			<br>
+			Sort By : 
+			<select>
+				<option value="asc">Date</option>
+				<option value="desc">Location</option>
+			</select>
+				<form action="input_checkbox.htm">
+					<p>Looking in your folder(s) :</p>
+					<p>
+						<input type="checkbox" name="folder" value="folder">Vacation<br>
+						<input type="checkbox" name="folder" value="folder">Baby<br>
+						<input type="checkbox" name="folder" value="folder">Pets<br>
+						<input type="checkbox" name="folder" value="folder">Wedding<br>
+						<input type="checkbox" name="folder" value="folder">Family<br>
+
+					</p>
+				</form>
+
+			<br>
+			Order : 
+			<select>
+				<option value="asc">Ascending</option>
+				<option value="desc">Descending</option>
+			</select>
+			<br><br>
+			<p><a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/subsites/result.html"><button type="button">Browse</button></a></p>
+		</div>
+	</div>
+
+
+
+
+
+
+
+		<div class="footer">
+			<div id="credit">
+				Layout By Anna-Sophia Wirth ©
+			</div>
+
+
+			<div id="impressum">
+				<li>
+					<ul><a href="#">About</a></ul>
+					<ul>|</ul>
+					<ul><a href="#">Contact</a></ul>
+					<ul>|</ul>
+					<ul><a href="">Impressum</a></ul>
+				</li>
+			</div>
+		</div>
+	</div>	
+</body>
+
+</html>
