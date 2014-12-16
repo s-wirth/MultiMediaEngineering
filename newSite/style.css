@@ -13,6 +13,11 @@ input{
 	text-align: left;
 	top: 0px;
 }
+
+ul {
+    list-style-position: inside;
+}
+
 .logo {
 	position: absolute;
 	z-index: 3;
@@ -178,10 +183,43 @@ textarea {
 }
 
 .message {
-	width: 200px;
-	height: 100px;
-	background: red;
-	display: block;
+	position: relative;
+	margin: 2% auto;
+	display: none;
+}
+
+.content {
+	position: relative;
+	background: #cd365b;
+	border-radius: 5px;
+	width: 25%;
+	height: auto;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: left;
+}
+
+.content /*text style*/{
+	color: #591728;
+	font-family: 'Lato',arial,sans-serif;
+}
+
+.content ul {
+	padding: 20px;
+}
+
+.content ul li {
+	display: list-item;
+	list-style-type: disc;
+}
+
+.arrow {
+	width: 0px;
+	height: 0px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #cd365b;
+	margin: -8px auto 0 auto;
 }
 
 #info {

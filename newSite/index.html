@@ -11,13 +11,7 @@
 </head>
 
 <body>
-	<script>
 
-		$(function() {
-			$("#errorMessage").hide(700);
-		});
-
-	</script>
 
 	<div id="container">
 		<div class="logo"><a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/index.html"><img src="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/Acc/ArtArchiveLogo500.png" alt="ArtArchive" /></a></div>
@@ -34,8 +28,8 @@
 				<h1>Login / Register</h1>
 				<ul>
 					<li>
-						Username: <br>
-						<input type="text" id="username" name="username" placeholder="enter your username">
+						E-Mail: <br>
+						<input type="text" id="username" name="username" placeholder="enter your e-mail">
 					</li>
 					<br>
 					<li>
@@ -55,7 +49,15 @@
 			</div>
 
 			<div class="message" id="errorMessage">
-				I am the error message you get when you are too stupid to type in your details
+				<div class="arrow"></div>
+				<div class="content" id="contentUL">
+
+					A problem occured while trying to log you in :(
+
+					<ul id="list"></ul>
+					
+				</div>
+				
 			</div> 
 
 		</div>
