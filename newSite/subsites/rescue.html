@@ -5,20 +5,11 @@
 	<title>ArtArchive</title>
 	<link href='http://fonts.googleapis.com/css?family=Arizonia|Lato:400,700,400italic' rel='stylesheet' type='text/css'>
 	<link rel="shortcut icon" href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/favicon.ico" >
-	<link href="style.css" rel="stylesheet" type="text/css" />
-	<script src="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/jquery-2.1.1.js"></script>
-	<script src="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/javascript.js"></script>
+	<link href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/style.css" rel="stylesheet" type="text/css" />
+	<script src="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/subsites/rescueJS.js"></script>
 </head>
 
 <body>
-	<script>
-
-		$(function() {
-			$("#errorMessage").hide(700);
-		});
-
-	</script>
-
 	<div id="container">
 		<div class="logo"><a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/index.html"><img src="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/Acc/ArtArchiveLogo500.png" alt="ArtArchive" /></a></div>
 		<div class="header"><h1>Art Archive</h1></div>
@@ -31,31 +22,21 @@
 
 			<div class="login">
 
-				<h1>Login / Register</h1>
+				<h1>Enter Your E-Mail</h1>
 				<ul>
 					<li>
-						Username: <br>
-						<input type="text" id="username" name="username" placeholder="enter your username">
+						E-Mail: <br>
+						<input type="text" id="mail" name="mail" value="E-Mail">
 					</li>
 					<br>
 					<li>
-						Password: <br>
-						<input type="password" id="password" name="password" placeholder="enter your password">
-					</li>
-					<br>
-					<li>
-						<input type="submit" id="login" value="Log in">
+						<input type="submit" id="submit" value="Submit">
 					</li>
 				</ul>
 				
-				<h3><a href="#">New account</a></h3>
-				Lost your 
-				<a href="/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/newSite/subsites/rescue.html">password</a>?
+				<h3>Within 5 minutes...</h3>
+				... you are going to receive a mail with a link to reset your password.
 				
-			</div>
-
-			<div class="message" id="errorMessage">
-				I am the error message you get when you are too stupid to type in your details
 			</div> 
 
 		</div>

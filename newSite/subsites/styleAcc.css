@@ -1,0 +1,72 @@
+.profile-img {
+	position: relative;
+	height: 150px;
+	width: 110px;
+	overflow: hidden;
+	border: 3px solid white;
+	border-radius: 7px;
+	float: left;
+	margin-left: 50px;
+}
+
+.profile-img img {
+	height: 150px;
+	width: auto;
+	margin: auto;
+}
+
+.stats {
+	position: relative;
+	background: rgba(168, 163, 164, 0.3);
+	width: 250px;
+	margin-top: 200px; 
+	text-align: left;
+}
+
+.stats h2, .work h2 {
+	top:0;
+	margin: 0;
+	width: 100%;
+	background: #2a2929;
+	font-family: 'Lato',arial,sans-serif;
+	font-size: 17px;
+	text-align: center;
+
+}
+
+.stats h3 {
+	font-size: 15px;
+	margin-bottom: 0;
+}
+
+.stats ul li {
+	display: list-item;
+}
+
+.stats ul {
+	margin: 0px;
+	padding: 10px;
+}
+
+.stats li {
+	padding-bottom: 10px;
+}
+
+.work {
+	position: relative;
+	float: right;
+	top: 0;
+	height: auto;
+	width: 60%;
+	overflow: auto;
+	background: rgba(168, 163, 164, 0.3);
+	text-align: center;
+}
+
+.work img {
+	width: 90%;
+	height: auto;
+	padding: 10px;
+	padding-bottom: 20px;
+
+}

@@ -110,78 +110,38 @@ input{
 	font-family: 'Lato', arial, sans-serif;
 	text-align: center;
 }
-/*.login {
-	position: absolute;
-	top: 16	0px;
-	left: 700px;
-	z-index: 3;
-
-	background: rgba(168, 163, 164, 0.9);
-	height: 250px;
-	width: 330px;
-}*/
-
-.login {
-	background: rgba(168, 163, 164, 0.3);
-	width:33%;
-	height: auto;
-	border-radius: 10px;	
-	border-left: 2px solid #cd365b;
-	border-right: 2px solid #cd365b;
-	border-bottom: 4px solid #cd365b;
-	border-top: 4px solid #cd365b;
-	font-family:'Lato', Helvetica, Arial, sans-serif;
-	color:#fff;
-	font-size:13px;
-	font-weight: bold;
-	padding:16px;
-	margin:0 auto;
-	vertical-align:top;
-}
-
-.login a {
-	text-decoration: none;
-	color: inherit;
-}
-
-.login ul {
-	padding: 0;
-
-}
-
-.login ul, li {
-	margin: 4px;
-	display: inline-block;
-}
-
-textarea, input {
-    color: #666;
-    padding: 5px;
-    border: solid 1px #E5E5E5;
-    background: white;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    border-radius: 4px;
-    transition: all 0.35s ease-in-out;
-    width:220px;
-}
-textarea:focus, input:focus {
-    outline:none;
-}
-textarea:hover, input:hover, textarea:active, input:active {
-    border:1px solid #2ac0ff;
-    transition: all 0.35s ease-in-out;
-}
-textarea {
-    background: white;
-    height:152px;
-}
-
-.message {
-	width: 200px;
+.seperate {
+	background: url("/Users/sophie/Dropbox/3 Uni/MultiEngI/Aufgabe 1/Acc/zigzag.png") no-repeat;
+	background-position: 100px 50%; 
+	margin-top: 50px;
 	height: 100px;
-	background: red;
-	display: block;
+	width: 800px;
+}
+
+#welcome {
+	background: rgba(168, 163, 164, 0.3);
+	border: 1px solid #a8a3a4;
+	border-radius: 3px;
+	position: relative;
+	margin: auto;
+	margin-top: 50px;
+	width: 80%;
+	height: auto;
+	text-align: left;
+	padding: 20px;
+}
+
+#welcome {
+	color: white;
+	font-family: 'Lato', arial, sans-serif;
+	letter-spacing: 2px;
+}
+
+#welcome h1{
+	margin-top: -19px;
+	text-align: center;
+	font-family: 'Arizonia', Verdana, sans-serif;
+	font-size: 30px;
 }
 
 #info {
@@ -289,7 +249,22 @@ a#active {
 
 }
 
+
 .ub.tb table {
 	border-collapse: collapse;
 }
 
+.login {
+	position: absolute;
+	top: 16	0px;
+	left: 700px;
+	z-index: 3;
+	border-radius: 10px;	
+	border-left: 2px solid #cd365b;
+	border-right: 2px solid #cd365b;
+	border-bottom: 4px solid #cd365b;
+	border-top: 4px solid #cd365b;
+	background: rgba(168, 163, 164, 0.9);
+	height: 250px;
+	width: 330px;
+}
